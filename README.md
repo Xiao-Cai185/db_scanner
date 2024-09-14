@@ -167,3 +167,6 @@ db_scanner -h 127.0.0.1 -u root -p password -P 3307 -c latin1 --db testdb
 此项目遵循 [MIT License](LICENSE)。
 
 ---
+
+![image](https://github.com/user-attachments/assets/0be29c3f-874f-4cfe-9c5c-0994170d9e00)
+
