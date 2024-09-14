@@ -168,5 +168,11 @@ db_scanner -h 127.0.0.1 -u root -p password -P 3307 -c latin1 --db testdb
 
 ---
 
-![image](https://github.com/user-attachments/assets/0be29c3f-874f-4cfe-9c5c-0994170d9e00)
+## 截图
+![image](https://github.com/user-attachments/assets/7bd59f56-b001-469b-a8b5-ede1423d8eff)
+![image](https://github.com/user-attachments/assets/db13e5d1-cbd2-4c4e-90db-f01b309c86c2)
+![image](https://github.com/user-attachments/assets/8fb9f1d8-c903-43a5-bd05-50a54952f092)
+
+
+
 
