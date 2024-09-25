@@ -73,6 +73,14 @@ db_scanner -h 127.0.0.1 -u root -p password -P 3306 -c utf8mb4 --db testdb -t us
 ```bash
 db_scanner -h 127.0.0.1 -u root -p password --db testdb -t users -v
 ```
+### 5. 导出报告到指定文件
+
+```bash
+db_scanner -h 127.0.0.1 -u root -p password -P 3306 -c utf8mb4 --db testdb -t users -v --output report.txt
+```
+```bash
+db_scanner -h 127.0.0.1 -u root -p password --db testdb -t users -v --output report.txt
+```
 
 ---
 
@@ -159,6 +167,16 @@ db_scanner -h 127.0.0.1 -u root -p password -P 3307 -c latin1 --db testdb
 ```
 在不指定这些参数的情况下，工具会使用默认值。
 
+### 6. 如何导出回显数据？
+
+可以使用 `--output {文件名}`，参数将指定回显内容同步输出到特定文件，例如：
+
+```bash
+db_scanner -h 127.0.0.1 -u root -p password --db testdb -v --output report.txt
+```
+
+程序会自动输出终端回显内容到指定文件并附上报告生成时间。
+
 ---
 
 
@@ -172,7 +190,6 @@ db_scanner -h 127.0.0.1 -u root -p password -P 3307 -c latin1 --db testdb
 ![image](https://github.com/user-attachments/assets/7bd59f56-b001-469b-a8b5-ede1423d8eff)
 ![image](https://github.com/user-attachments/assets/db13e5d1-cbd2-4c4e-90db-f01b309c86c2)
 ![image](https://github.com/user-attachments/assets/8fb9f1d8-c903-43a5-bd05-50a54952f092)
-
 
 
 
