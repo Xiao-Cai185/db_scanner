@@ -2,6 +2,8 @@
 
 `db_scanner` 是一个简单的命令行工具，基于[SecurityPaper/thai_bone](https://github.com/SecurityPaper/thai_bone/)二次开发，用于扫描数据库中的敏感信息，并通过正则表达式匹配识别常见的敏感数据类型。它支持多种操作模式，包括数据库列表显示、特定表查询和详细输出模式等，适合信息安全分析与隐私数据筛查。
 
+可前往[Release](https://github.com/Xiao-Cai185/db_scanner/releases)下载编译好的可执行程序文件
+
 ## 功能简介
 
 - **扫描数据库中的敏感数据**：支持多种类型的敏感信息，如电子邮件、身份证号码、电话号码和 IP 地址等。
@@ -184,9 +186,8 @@ db_scanner -h 127.0.0.1 -u root -p password --db testdb -v --output report.txt
 ---
 
 ## 截图
-![image](https://github.com/user-attachments/assets/7bd59f56-b001-469b-a8b5-ede1423d8eff)
-![image](https://github.com/user-attachments/assets/db13e5d1-cbd2-4c4e-90db-f01b309c86c2)
-![image](https://github.com/user-attachments/assets/8fb9f1d8-c903-43a5-bd05-50a54952f092)
+![image](https://github.com/user-attachments/assets/2cfb2096-2c34-4630-a219-4e06f04589ba)
+
 
 
 
