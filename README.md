@@ -76,9 +76,6 @@ db_scanner -h 127.0.0.1 -u root -p password --db testdb -t users -v
 ### 5. 导出报告到指定文件
 
 ```bash
-db_scanner -h 127.0.0.1 -u root -p password -P 3306 -c utf8mb4 --db testdb -t users -v --output report.txt
-```
-```bash
 db_scanner -h 127.0.0.1 -u root -p password --db testdb -t users -v --output report.txt
 ```
 
